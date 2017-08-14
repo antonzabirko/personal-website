@@ -36,6 +36,7 @@
 ehthumbs.db
 Thumbs.db
 
-# Modules #
+# User #
 ######################
 /node_modules/
+gulpfile.js
