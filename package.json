@@ -1,0 +1,38 @@
+{
+  "name": "anton/personal-website",
+  "version": "0.0.1",
+  "description": "This is my website. There are many like it, but this one is mine!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonzabirko/personal-website.git"
+  },
+  "author": "Anton A. Zabirko",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/antonzabirko/personal-website/issues"
+  },
+  "homepage": "https://github.com/antonzabirko/personal-website#readme",
+  "dependencies": {
+    "conventional-github-releaser": "^1.1.12",
+    "fs": "0.0.1-security",
+    "gulp": "^3.9.1",
+    "gulp-bump": "^2.7.0",
+    "gulp-coffee": "^2.3.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-conventional-changelog": "^1.1.4",
+    "gulp-git": "^2.4.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "run-sequence": "^2.1.0"
+  },
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-sass": "latest"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "personal-website",
+  "description": "This is my website. There are many like it, but this one is mine!",
+  "main": "index.js",
+  "authors": [
+    "Anton Zabirko"
+  ],
+  "license": "Apache-2.0",
+  "homepage": "antonzabirko.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

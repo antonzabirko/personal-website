@@ -1,0 +1,13 @@
+{
+    "name": "anton/personal-website",
+    "description": "This is my website. There are many like it, but this one is mine!",
+    "type": "project",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Anton A. Zabirko",
+            "email": "antonzabirko@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
