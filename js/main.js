@@ -1,1 +1,1 @@
-
+var nodes=document.querySelectorAll("p");fitterHappierText(nodes);

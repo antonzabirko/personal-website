@@ -18,6 +18,7 @@
   "homepage": "https://github.com/antonzabirko/personal-website#readme",
   "dependencies": {
     "conventional-github-releaser": "^1.1.12",
+    "fitter-happier-text": "0.0.7",
     "fs": "0.0.1-security",
     "gulp": "^3.9.1",
     "gulp-bump": "^2.7.0",
@@ -26,6 +27,7 @@
     "gulp-connect": "^5.0.0",
     "gulp-conventional-changelog": "^1.1.4",
     "gulp-git": "^2.4.2",
+    "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
     "gulp-uglify": "^3.0.0",
     "gulp-util": "^3.0.8",
@@ -34,7 +36,9 @@
   },
   "devDependencies": {
     "gulp": "latest",
+    "gulp-clean-css": "^3.7.0",
     "gulp-sass": "latest",
-    "tachyons": "^4.7.0"
+    "tachyons": "^4.7.0",
+    "tachyons-flexbox": "^2.0.5"
   }
 }

@@ -55,17 +55,51 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   .archivo {
+    font-family: 'Archivo', sans-serif;
+}
 
+* {
+    background-color: black;
+}
 
+html, body {
+    margin: 0;
+    height: 100%; 
+}
 
+.transition-red {
+    -webkit-transition: color .7s ease-in-out; /* Safari */
+    transition: color .7s ease-in-out;
+}
 
+.transition-red:hover {
+    color: red;
+}
 
+.flex {
+    display: flex;
+    flex-direction: column;
+}
 
+.flex-content {
+    flex: 1;
+}
 
+.spotlight {
+    height: 577px;
+}
 
-
-
-
+@media screen and (max-width: 48em) {
+    .gray-responsive {
+        clear: both;
+        width: 100%;
+    }
+    .white-responsive {
+        clear: both;
+        width: 100%;
+    }
+  }
 
 
 
