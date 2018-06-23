@@ -10,7 +10,9 @@
     "dev-server": "webpack-dev-server",
     "test": "cross-env NODE_ENV=test jest --config=jest.config.json --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
     "start": "node server/server.js",
-    "heroku-postbuild": "yarn run build:prod"
+    "heroku-postbuild": "yarn run build:prod",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
@@ -57,10 +59,12 @@
     "webpack": "^4.10.2",
     "webpack-cli": "^2.1.4",
     "webpack-dev-server": "^3.1.4",
-    "yarn": "^1.7.0"
+    "yarn": "^1.7.0",
+    "snyk": "^1.83.0"
   },
   "devDependencies": {
     "cross-env": "^5.1.6",
     "dotenv": "^6.0.0"
-  }
+  },
+  "snyk": true
 }
