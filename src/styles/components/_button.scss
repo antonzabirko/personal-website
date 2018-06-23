@@ -1,0 +1,66 @@
+.button {
+  background: linear-gradient($olive, adjust-hue($olive, 15));
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
+  color: #eeeeee;
+  display: inline-block;
+  font-size: $font-size-large;
+  font-weight: 300;
+  line-height: 1;
+  padding: $s-size;
+  text-decoration: none;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.20);
+  top: 0;
+  transition: top .3s ease;
+
+  &:hover {
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.20), inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
+    position: relative;
+    top: -1px;
+  }
+  &:active {
+    border-style: none;
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.20);
+    top: 0;
+  }
+  &:focus {
+    outline: 0;
+  }
+}
+
+.button--link {
+  box-shadow: 0 0 0 0 rgba(0,0,0,0.0);
+  border: 1px solid lightblue;
+
+  &:hover {
+    box-shadow: 0 0 0 0 rgba(0,0,0,0.0);
+    top: 0;
+  }
+  &:active {
+    border: 1px solid lightblue;
+    box-shadow: 0 0 0 0 rgba(0,0,0,0.0);
+    top: 0;
+  }
+}
+
+.button-secondary {
+  background: linear-gradient(#FF4136, adjust-hue(#FF4136, 10));
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
+  top: 0;
+  transition: top .3s ease;
+
+  &:hover {
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.20), inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
+    position: relative;
+    top: -1px;
+    transition: top .3s ease;
+    z-index: 1;
+  }
+  &:active {
+    border-style: none;
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.20);
+    top: 0;
+    transition: top .3s ease;
+  }
+}
