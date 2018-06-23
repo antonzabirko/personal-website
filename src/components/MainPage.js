@@ -1,11 +1,9 @@
 import React from 'react';
+import Header from './Header';
 
 const MainPage = () => (
 		<div>
-				<div>Anton Zabirko</div>
-				<div>BCCNY Undergraduate</div>
-				<div>Projects</div>
-				<div>Contact</div>
+				<Header />
 		</div>
 );
 

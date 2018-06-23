@@ -1,5 +1,5 @@
 .header {
-  background: linear-gradient($dark-grey, adjust-hue($dark-grey, 15));
+  //background: $QUATERNARY;
 }
 
 .header__content {
@@ -10,7 +10,7 @@
   text-shadow: 0 2px 4px rgba(0,0,0,0.20);
 }
 
-.header__title {
+.header__text {
   color: white;
   text-decoration: none;
   h1 {
@@ -20,6 +20,5 @@
 
 .color-bar {
   height: 2px;
-  //background: $olive;
-  background: linear-gradient(120deg, $olive, #C9F2C7);
+  background: linear-gradient(120deg, $SECONDARY, $TERTIARY);
 }

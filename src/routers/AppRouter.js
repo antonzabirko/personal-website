@@ -9,7 +9,6 @@ import createHistory from 'history/createBrowserHistory';
 //
 import NotFoundPage from '../components/NotFoundPage';
 import MainPage from '../components/MainPage';
-import PrivateRoute from './PrivateRoute';
 import PublicRoute from './PublicRoute';
 
 export const history = createHistory();
