@@ -6,9 +6,3 @@ node_js:
 before_install:
 - openssl aes-256-cbc -K $encrypted_0e9b775308a9_key -iv $encrypted_0e9b775308a9_iv
   -in .env.test.enc -out .env.test -d
-
-jobs:
- include:
-   - stage: Produce Coverage
-     node_js: node
-     script: cross-env NODE_ENV=test jest --config=jest.config.json --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage
