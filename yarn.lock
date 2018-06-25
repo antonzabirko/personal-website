@@ -1560,10 +1560,6 @@ boom@2.x.x:
   dependencies:
     hoek "2.x.x"
 
-bootstrap@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.1.1.tgz#3aec85000fa619085da8d2e4983dfd67cf2114cb"
-
 bowser@^1.7.3:
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/bowser/-/bowser-1.9.3.tgz#6643ae4d783f31683f6d23156976b74183862162"
@@ -3730,9 +3726,9 @@ grpc@1.11.3:
     node-pre-gyp "^0.10.0"
     protobufjs "^5.0.0"
 
-hammerjs@^2.0.0, hammerjs@^2.0.8:
-  version "2.0.8"
-  resolved "https://registry.yarnpkg.com/hammerjs/-/hammerjs-2.0.8.tgz#04ef77862cff2bb79d30f7692095930222bf60f1"
+gutenberg-web-type@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/gutenberg-web-type/-/gutenberg-web-type-1.2.3.tgz#8b6187155884b6e288a4915c459eb274f42c71e5"
 
 handle-thing@^1.2.5:
   version "1.2.5"
@@ -5592,12 +5588,6 @@ multimatch@^2.0.0:
 mute-stream@0.0.7:
   version "0.0.7"
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.7.tgz#3075ce93bc21b8fab43e1bc4da7e8115ed1e7bab"
-
-muuri@^0.5.4:
-  version "0.5.4"
-  resolved "https://registry.yarnpkg.com/muuri/-/muuri-0.5.4.tgz#ee29ff78d21f55fc00625e841f8a5a705cf546e6"
-  dependencies:
-    hammerjs "^2.0.0"
 
 nan@^2.0.0, nan@^2.10.0, nan@^2.9.2:
   version "2.10.0"
