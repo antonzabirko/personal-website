@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: $dark-grey ;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: $m-size;
+  line-height: 1.6;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+.is-active {
+  font-weight: bold;
+}
+
+hr {
+  -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-style: solid none;
+  margin: 18px 0;
+}
+
+body > div > a {
+  text-decoration: none;
+}
+
+/* xs < 768 */
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 0.9em;
+  }
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 1em;
+  }
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+  body {
+    font-size: 1.2em;
+  }
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+  body {
+    font-size: 1.3em;
+  }
+}

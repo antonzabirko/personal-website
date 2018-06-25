@@ -3726,6 +3726,10 @@ grpc@1.11.3:
     node-pre-gyp "^0.10.0"
     protobufjs "^5.0.0"
 
+gutenberg-web-type@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/gutenberg-web-type/-/gutenberg-web-type-1.2.3.tgz#8b6187155884b6e288a4915c459eb274f42c71e5"
+
 handle-thing@^1.2.5:
   version "1.2.5"
   resolved "https://registry.yarnpkg.com/handle-thing/-/handle-thing-1.2.5.tgz#fd7aad726bf1a5fd16dfc29b2f7a6601d27139c4"
