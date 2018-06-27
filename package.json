@@ -22,7 +22,6 @@
     "babel-preset-env": "1.5.2",
     "babel-preset-react": "6.24.1",
     "body-parser": "^1.18.3",
-    "coveralls": "^3.0.1",
     "css-loader": "^0.28.11",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
