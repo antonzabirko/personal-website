@@ -163,3 +163,7 @@ body a.underline {
   &:hover {
   }
 }
+
+#bootstrap-overrides .project__icon--no-margins {
+  margin: 0;
+}

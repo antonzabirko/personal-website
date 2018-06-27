@@ -65,7 +65,7 @@ class Header extends React.Component {
 																		<a href="https://github.com/antonzabirko/expensemap"
 																		   target="_blank"
 																		   className="project__links">
-																				<i className="fab fa-github fa-3x project__icon" />
+																				<i className="fab fa-github fa-3x project__icon project__icon--no-margins" />
 																				<p className="project__icon-text">Github source</p>
 																		</a>
 																</section>
