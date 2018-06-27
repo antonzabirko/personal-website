@@ -30,6 +30,10 @@ module.exports = (env) => {
                 test: /\.js$/,
                 exclude: /node_modules/
             }, {
+                test: /\.(png|jpg)$/,
+                loader: 'url-loader?limit=8192'
+            },
+                {
                 test: /\.s?css$/,
                 use: CSSExtract.extract({
                     use: [

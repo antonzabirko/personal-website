@@ -1,3 +1,25 @@
+.about {
+  margin-bottom: 5rem;
+  margin-top: 1rem;
+}
+
+#bootstrap-overrides .about__links {
+  align-content: center;
+  justify-content: center;
+  color: $dark-grey;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 0;
+  text-decoration: none;
+  &:hover {
+    color: $SECONDARY;
+  }
+}
+
+.about__text {
+  text-align: justify;
+}
+
 .expensemap-image {
   align-content: center;
   justify-content: center;
@@ -14,10 +36,6 @@
   }
 }
 
-.header {
-  //background: $QUATERNARY;
-}
-
 .header__content {
   align-items: center;
   display: flex;
@@ -26,12 +44,16 @@
   text-shadow: 0 2px 4px rgba(0,0,0,0.20);
 }
 
-.header__text {
-  color: white;
-  text-decoration: none;
-  h1 {
-    margin: 0;
-  }
+#small {
+  margin-left: 46.5%;
+  padding-bottom: 1rem;
+  width: 7%;
+}
+
+#medium {
+  margin-left: 37.5%;
+  padding-bottom: 1rem;
+  width: 25%;
 }
 
 .color-bar {
@@ -39,19 +61,12 @@
   background: linear-gradient(120deg, $SECONDARY, $TERTIARY);
 }
 
-.project {
-  background: #eeeeee;
-  border-left: 15px solid $SECONDARY;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 5rem 0;
-  text-align: center;
-  height: 205px;
-}
-
 .display-4.override {
   margin-bottom: 0;
+}
+
+.docs__text {
+  text-align: center;
 }
 
 body a.underline {
@@ -66,7 +81,7 @@ body a.underline {
   &:hover {
     background: none;
     border-bottom: 0 solid #a6a6a6;
-    color: $PRIMARY;
+    color: $SECONDARY;
     text-decoration: none;
   }
   &:before {
@@ -76,7 +91,7 @@ body a.underline {
     height: 5px;
     bottom: -10px;
     left: 0;
-    background-color: $SECONDARY;
+    background-color: $PRIMARY;
     visibility: hidden;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
@@ -90,7 +105,61 @@ body a.underline {
   }
 }
 
-.icons-section {
+.projects {
+  margin-bottom: 3rem;
+}
+
+.project {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  @media screen and (min-width: 576px) {
+    flex-direction: column;
+  }
+}
+
+#bootstrap-overrides .project__links {
+  align-items: center;
+  color: $dark-grey;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1rem 0;
+  text-decoration: none;
+  &:hover {
+    color: $SECONDARY;
+  }
+}
+
+#bootstrap-overrides .project__icon {
+  align-self: center;
+  color: inherit;
+  margin: 0 1.5rem 0 1.5rem;
+  opacity: 0.5;
+}
+
+#bootstrap-overrides .project__icon-text {
+  color: inherit;
+  font-size: large;
+  font-weight: 400;
+  margin: 0 0 0 .5rem;
+}
+
+.project__title {
+  font-weight: 500;
+  padding: 1rem 0;
+  word-wrap: unset;
+  white-space: nowrap;
+}
+
+#bootstrap-overrides .projects__section-title {
+  text-align: center;
+}
+
+#bootstrap-overrides .project__stackshare {
+  color: #80bdff;
+  &:hover {
+  }
 }
