@@ -38,7 +38,7 @@
     "numeral": "^2.0.6",
     "raf": "^3.4.0",
     "react": "^16.4.0",
-    "react-addons-shallow-compare": "^15.6.2",
+    "react-addons-shallow-compare": "^15.6.3",
     "react-dates": "^16.7.0",
     "react-dom": "^16.4.0",
     "react-modal": "^3.4.5",
