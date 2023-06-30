@@ -31,7 +31,7 @@
     "firebase": "^5.0.4",
     "gutenberg-web-type": "^1.2.3",
     "history": "^4.7.2",
-    "jest": "^23.1.0",
+    "jest": "^26.0.0",
     "moment": "^2.22.2",
     "node-sass": "^4.9.0",
     "normalize.css": "^8.0.0",
